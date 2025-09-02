@@ -33,10 +33,10 @@ let respostaWaddles = document.querySelector("#resposta-waddles");
 
 let waddles = document.querySelector("img");
 
-waddles.onmouseenter = mouseEnter();
-waddles.onmousemove = mouseMove();
-waddles.onmouseleave = mouseLeave();
-waddles.ondrag = dragWaddles();
+waddles.onmouseenter = mouseEnter;
+waddles.onmousemove = mouseMove;
+waddles.onmouseleave = mouseLeave;
+waddles.ondrag = dragWaddles;
 
 
 /*
