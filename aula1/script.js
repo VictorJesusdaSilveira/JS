@@ -1,12 +1,12 @@
 //alert("Hello World!!");
-//console.log("Hello World!!");
-//let elementos = document.getElementsByTagName("p");
-//let elementos = document.getElementsByClassName("paragrafo");
-//let elementos = document.getElementsById("#caixa");
-//let elementos = document.querySelector(".conteiner .conteudo"); é o mais usado.
-//let elementos = document.querySelectorAll(". conteiner .conteudo"); retorna uma lista de tudo que tem dentro do conteiner/conteúdo
-//elementos[1].innerText = "Novo Texto";
-//console.log(elementos[1].innerText);
+console.log("Hello World!!");
+let elementos = document.getElementsByTagName("p");
+let elementos = document.getElementsByClassName("paragrafo");
+let elementos = document.getElementsById("#caixa");
+let elementos = document.querySelector(".conteiner .conteudo"); é o mais usado.
+let elementos = document.querySelectorAll(". conteiner .conteudo"); retorna uma lista de tudo que tem dentro do conteiner/conteúdo
+elementos[1].innerText = "Novo Texto";
+console.log(elementos[1].innerText);
 
 
 //Desafio 2 (Próxima Aula)
@@ -17,14 +17,14 @@
 //texto.style.backgroundColor = "blue";
 
 
-//novaFuncionalidade();
+novaFuncionalidade();
 
-/*function novaFuncionalidade(){
+function novaFuncionalidade(){
     let titulo = document.querySelector("h1");
     titulo.innerText = "Seu título foi hackeado!!!";
     titulo.style.fontSize = "100px"; 
     titulo.style.color = "green";
-}*/
+}
 
 
 //Desafio 3
